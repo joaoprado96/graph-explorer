@@ -1,0 +1,10 @@
+
+-e {
+"GRAPH_EXP_PUBLIC_OR_PROXY_ENDPOINT":"https://public-endpoint",
+"GRAPH_EXP_SERVICE_TYPE":"neptune-db",
+"GRAPH_EXP_GRAPH_TYPE":"gremlin",
+"GRAPH_EXP_USING_PROXY_SERVER":true,
+"GRAPH_EXP_IAM":true,
+"GRAPH_EXP_CONNECTION_URL":"https://cluster-cqmizgqgrsbf.us-west-2.neptune.amazonaws.com:8182",
+-e "GRAPH_EXP_AWS_REGION":"us-west-2"
+}
